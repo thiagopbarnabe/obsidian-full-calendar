@@ -60,6 +60,7 @@ export default class FullCalendarPlugin extends Plugin {
 
     renderCalendar = renderCalendar;
     processFrontmatter = toEventInput;
+	CalendarView = CalendarView;
 
     async activateView() {
         const leaves = this.app.workspace
